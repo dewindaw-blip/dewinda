@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Dewinda Salsabila</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #ffe6f0, #e6f0ff);
+      margin: 0;
+      padding: 0;
+    }
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      background: linear-gradient(to right, #ff66b2, #001f4d);
+      color: #fff;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 12px 0;
+      white-space: nowrap;
+      border-bottom: 3px solid #ffb6c1;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll 12s linear infinite;
+    }
+    @keyframes scroll {
+      from { transform: translateX(0); }
+      to { transform: translateX(-100%); }
+    }
+    .container {
+      max-width: 750px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+      border: 2px solid #ff99cc;
+    }
+    h1 {
+      text-align: center;
+      color: #001f4d;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .biodata p {
+      font-size: 19px;
+      margin: 12px 0;
+    }
+    .highlight {
+      color: #ff3399;
+      font-weight: bold;
+    }
+    .donker {
+      color: #001f4d;
+      font-weight: bold;
+    }
+    .hobi {
+      margin-top: 18px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #444;
+      background: #fff0f5;
+      border-radius: 12px;
+      padding: 15px;
+      border-left: 5px solid #ff66b2;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Running Text -->
+  <div class="marquee">
+    <span>🌸 Selamat Datang di Website Saya! 🌸</span>
+  </div>
+
+  <!-- Biodata -->
+  <div class="container">
+    <h1>✨ Biodata Diri ✨</h1>
+    <div class="biodata">
+      <p>👩 <span class="highlight">Nama:</span> Dewinda Salsabila</p>
+      <p>🏫 <span class="donker">Kelas:</span> XI.7</p>
+      <p>🎂 <span class="highlight">Tanggal Lahir:</span> 05-05-2009</p>
+      <p>💡 <span class="donker">Cita-cita:</span> Arsitektur</p>
+      <p>🎨 <span class="highlight">Hobi:</span> Menggambar</p>
+    </div>
+
+    <!-- Detail Hobi -->
+    <div class="hobi">
+      <p>✨ Saya sangat suka <span class="highlight">menggambar</span> 🎨. Dengan menggambar, saya bisa mengekspresikan ide, imajinasi, dan perasaan saya lewat goresan pensil maupun warna. 
+      Saya sering menggambar <span class="donker">sketsa bangunan 🏛️</span>, pemandangan 🌄, hingga ilustrasi kreatif 🌈. 
+      Hobi ini mendukung cita-cita saya menjadi seorang arsitek, karena <b>arsitektur</b> adalah gabungan seni, imajinasi, dan ilmu. 🏗️</p>
+    </div>
+  </div>
+
+</body>
+</html>
